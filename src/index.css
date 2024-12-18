@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+
+:root{
+    --main-ui-color:#F7003E;
+    --main-txt-color:#FFFFFF;
+    --main-background-color:#1E1E1E;
+    --second-background-color:#141414;
+    --main-background-color-transparent:rgba(30,30,30,.9);
+    --default-font: "Inter", sans-serif;;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--default-font);
+}
+
+html{
+    background-color: var(--main-background-color);
+}
+
+li{
+    list-style: none;
+}
