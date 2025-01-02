@@ -1,0 +1,35 @@
+.home{
+    background-image: url(/public/banner.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-new{
+    padding: 1rem 2rem;
+}
+
+.home-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.home-start > h1{
+    font-size: 5em;
+    font-family: var(--main-font)
+}
+.home-start > h3{
+    font-size: 3em;
+    font-family: var(--main-font)
+}

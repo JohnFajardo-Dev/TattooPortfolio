@@ -1,0 +1,14 @@
+.works{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.works > img{
+    width: 25%;
+}
+
+.works > img:hover{
+    transition: all .2s ease;
+    opacity: .5;
+}
