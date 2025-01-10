@@ -1,5 +1,12 @@
+// CSS
 import "./Home.css";
+
+// COMPONENTS
 import Navbar from "../Navbar/Navbar";
+
+// REACT ICONS
+import { IconContext } from "react-icons";
+import { FiCoffee, FiGift, FiHeart } from "react-icons/fi";
 
 function Home() {
   return (
@@ -29,32 +36,40 @@ function Home() {
         </article>
       </section>
       <section className="banner">
-        <section className="home-banner">
-          <article className="home-banner-item">
-            <h2>Title</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              facere sit qui veniam doloremque illum repellendus voluptas quasi
-              mollitia placeat cum.
-            </p>
-          </article>
-          <article className="home-banner-item">
-            <h2>Title</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              facere sit qui veniam doloremque illum repellendus voluptas quasi
-              mollitia placeat cum.
-            </p>
-          </article>
-          <article className="home-banner-item">
-            <h2>Title</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              facere sit qui veniam doloremque illum repellendus voluptas quasi
-              mollitia placeat cum.
-            </p>
-          </article>
-        </section>
+        <IconContext.Provider value={{ size: "3em" }}>
+          <section className="home-banner">
+            <article className="home-banner-item">
+              <FiCoffee />
+
+              <h2>Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                facere sit qui veniam doloremque illum repellendus voluptas
+                quasi mollitia placeat cum.
+              </p>
+            </article>
+            <article className="home-banner-item">
+              <FiHeart />
+
+              <h2>Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                facere sit qui veniam doloremque illum repellendus voluptas
+                quasi mollitia placeat cum.
+              </p>
+            </article>
+            <article className="home-banner-item">
+              <FiGift />
+
+              <h2>Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                facere sit qui veniam doloremque illum repellendus voluptas
+                quasi mollitia placeat cum.
+              </p>
+            </article>
+          </section>
+        </IconContext.Provider>
       </section>
     </>
   );
