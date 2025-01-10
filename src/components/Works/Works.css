@@ -1,14 +1,40 @@
-.works{
+/* WORKS BANNER */
+.works-banner{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.works-banner-txt{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    gap: 1rem;
 }
 
-.works > img{
-    width: 25%;
+
+/* WORKS GALLERY */
+.works-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-rows: min-content;
+    gap: 0px;
 }
 
-.works > img:hover{
+.works-gallery article{
+    display: block;
+    break-inside: avoid;
+}
+
+.works-gallery img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.works img:hover{
     transition: all .2s ease;
     opacity: .5;
 }

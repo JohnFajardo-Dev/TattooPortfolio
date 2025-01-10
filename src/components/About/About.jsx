@@ -16,7 +16,7 @@ function About() {
           es una expresión personal y estamos aquí para guiarte en cada paso del
           proceso, asegurando que tu experiencia sea auténtica y significativa.
         </h3>
-        <button className="about-btn">View More</button>
+        <button className="main-btn">View More</button>
       </article>
     </section>
   );

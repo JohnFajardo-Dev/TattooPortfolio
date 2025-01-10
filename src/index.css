@@ -1,5 +1,7 @@
+/* IMPORT GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&family=UnifrakturMaguntia&display=swap');
 
+/* ROOT STYLES VARIABLES */
 :root{
     --main-ui-color:#F7003E;
     --main-txt-color:#FFFFFF;
@@ -10,12 +12,17 @@
     --main-font:"UnifrakturMaguntia", serif;
 }
 
-
+/* GLOBAL STYLES */
 *{
     margin: 0;
     padding: 0;
     font-family: var(--default-font);
     color-scheme: dark;
+}
+
+html{
+    background-color: var(--main-background-color);
+    scroll-behavior: smooth;
 }
 
 h1{
@@ -33,10 +40,50 @@ h3{
     font-size: 1em;
 }
 
-html{
-    background-color: var(--main-background-color);
+p{
+    color: var(--second-txt-color);
+    font-size: 1em;
 }
 
 li{
     list-style: none;
+}
+
+button{
+    cursor: pointer;
+    transition: all ease .1s;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* MAIN BUTTON STYLE */
+.main-btn{
+    padding: 1rem 2rem;
+    color: var(--main-txt-color);
+    background-color: var(--main-ui-color);
+    border-radius: 15px;
+    border: 3px solid var(--main-ui-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}.main-btn:hover{
+    background-color: transparent   ;
+}
+
+/* SECOND BUTTON STYLE */
+.second-btn{
+    padding: 1rem 5rem;
+    border: 2px solid var(--main-txt-color);
+    background-color: rgba(0, 0, 0, .4);
+}.second-btn:hover{
+    background-color: rgba(0, 0, 0, .8);
+    
+}
+
+/* BANNER */
+.banner{
+    background-color: var(--second-background-color);
 }

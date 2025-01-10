@@ -27,14 +27,3 @@
     line-height: 30px;
     font-size: 1.5em;
 }
-
-.about-btn{
-    padding: 1rem 1.5rem;
-    color: var(--main-txt-color);
-    background-color: var(--main-ui-color);
-    border-radius: 20px;
-    border: none;
-    width: 300px;
-    font-weight: bold;
-    font-size: 15px;
-}

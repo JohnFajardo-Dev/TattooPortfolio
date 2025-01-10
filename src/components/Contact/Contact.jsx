@@ -8,12 +8,12 @@ function Contact() {
         <img src="./contact.jpg" alt="" className="contact-img" />
       </article>
       <article className="contact-txt-cont">
-        <form action="">
+        <form action="" className="contact-form">
           <label>Hello!!!</label>
           <input type="text" />
           <input type="text" />
           <input type="text" />
-          <button>Submit</button>
+          <button className="main-btn">Submit</button>
         </form>
       </article>
     </section>
