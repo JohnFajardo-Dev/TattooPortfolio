@@ -31,45 +31,13 @@ function Home() {
         </article>
 
         <article className="home-btns">
-          <button className="second-btn">View Works</button>
-          <button className="second-btn">About Me</button>
+          <a href="#works" className="second-btn">
+            View Works
+          </a>
+          <a href="#about" className="second-btn">
+            About Me
+          </a>
         </article>
-      </section>
-      <section className="banner">
-        <IconContext.Provider value={{ size: "3em" }}>
-          <section className="home-banner">
-            <article className="home-banner-item">
-              <FiCoffee />
-
-              <h2>Title</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere sit qui veniam doloremque illum repellendus voluptas
-                quasi mollitia placeat cum.
-              </p>
-            </article>
-            <article className="home-banner-item">
-              <FiHeart />
-
-              <h2>Title</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere sit qui veniam doloremque illum repellendus voluptas
-                quasi mollitia placeat cum.
-              </p>
-            </article>
-            <article className="home-banner-item">
-              <FiGift />
-
-              <h2>Title</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere sit qui veniam doloremque illum repellendus voluptas
-                quasi mollitia placeat cum.
-              </p>
-            </article>
-          </section>
-        </IconContext.Provider>
       </section>
     </>
   );

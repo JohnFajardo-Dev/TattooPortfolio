@@ -57,6 +57,7 @@ button{
 a{
     list-style: none !important;
     text-decoration: none;
+    cursor: pointer;
 }a:link, :visited, :active{
     color: var(--main-txt-color);
 }
