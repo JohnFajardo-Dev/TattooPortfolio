@@ -9,10 +9,15 @@ function Contact() {
       </article>
       <article className="contact-txt-cont">
         <form action="" className="contact-form">
-          <label>Hello!!!</label>
-          <input type="text" />
-          <input type="text" />
-          <input type="text" />
+          <h1>Hello!!!</h1>
+          <h3>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad in
+            facere iste. Voluptate modi saepe quos repudiandae debitis quae ad
+            dolor quidem cumque quis animi minima
+          </h3>
+          <input type="text" placeholder="Enter Your Name" />
+          <input type="text" placeholder="Enter your email" />
+          <input type="text" placeholder="Enter your message" />
           <button className="main-btn">Submit</button>
         </form>
       </article>
