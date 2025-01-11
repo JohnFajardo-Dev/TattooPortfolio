@@ -3,7 +3,7 @@ import "./About.css";
 
 // REACT ICONS
 import { IconContext } from "react-icons";
-import { FiCoffee, FiGift, FiHeart } from "react-icons/fi";
+import { FiCoffee, FiHeart, FiBook } from "react-icons/fi";
 function About() {
   return (
     <main id="about">
@@ -13,31 +13,28 @@ function About() {
             <article className="home-banner-item">
               <FiCoffee />
 
-              <h2>Title</h2>
+              <h2>Coffee</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere sit qui veniam doloremque illum repellendus voluptas
-                quasi mollitia placeat cum.
+                A hot cup of coffee is the perfect complement to my moments of
+                reading, free time or work
               </p>
             </article>
             <article className="home-banner-item">
               <FiHeart />
 
-              <h2>Title</h2>
+              <h2>Design</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere sit qui veniam doloremque illum repellendus voluptas
-                quasi mollitia placeat cum.
+                My passion for drawing extends to tattooing. I enjoy creating
+                all kinds of designs and expressing my art
               </p>
             </article>
             <article className="home-banner-item">
-              <FiGift />
+              <FiBook />
 
-              <h2>Title</h2>
+              <h2>Read</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                facere sit qui veniam doloremque illum repellendus voluptas
-                quasi mollitia placeat cum.
+                Reading is part of my daily life, from my free time to my work
+                moments it is always present.
               </p>
             </article>
           </section>
@@ -50,13 +47,13 @@ function About() {
         <article className="about-txt-cont">
           <h2 className="about-txt-title">El CREW</h2>
           <h3 className="about-txt-info">
-            Nuestro equipo está comprometido con la excelencia y tiene un ojo
-            agudo para cada detalle. Inspirado por influencias locales e
-            internacionales, explora continuamente nuevas técnicas y
+            Nuestro equipo está comprometido con la excelencia y presta mucha
+            atención a cada detalle. Inspirados por influencias locales e
+            internacionales, exploran continuamente nuevas técnicas y
             herramientas para llevar tu tatuaje al siguiente nivel. Entendemos
             que cada tatuaje es una expresión personal y estamos aquí para
-            guiarte en cada paso del proceso, asegurando que tu experiencia sea
-            auténtica y significativa.
+            guiarte en cada paso del camino, asegurándonos de que tu experiencia
+            sea auténtica y significativa.
           </h3>
           <button className="main-btn">View More</button>
         </article>

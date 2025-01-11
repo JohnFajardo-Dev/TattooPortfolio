@@ -19,8 +19,8 @@ function Home() {
             <h3>CO | Bogota, Colombia</h3>
           </article>
           <article className="home-new home-new-right">
-            <h2>Phone</h2>
-            <h3>310 352 65 87</h3>
+            <h2>Contact</h2>
+            <h3>XXX XXX XX XX</h3>
           </article>
         </section>
         <article className="home-start">

@@ -5,12 +5,9 @@ function Works() {
     <section className="works" id="works">
       <section className="banner works-banner">
         <article className="works-banner-txt">
-          <p>Mi art here!</p>
+          <p>Welcome to my</p>
           <h1>WORKS</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            soluta, veritatis corporis eaque dolore magni quisquam.
-          </p>
+          <p>A sample of my art in each work.</p>
         </article>
       </section>
       <section className="works-gallery">
