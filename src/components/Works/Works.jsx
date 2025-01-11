@@ -20,7 +20,9 @@ function Works() {
         <article>
           <img src="./works/3.jpg" alt="" />
         </article>
-        <img src="./works/4.jpg" alt="" />
+        <article>
+          <img src="./works/4.jpg" alt="" />
+        </article>
         <article>
           <img src="./works/4.jpg" alt="" />
         </article>
@@ -32,18 +34,6 @@ function Works() {
         </article>
         <article>
           <img src="./works/1.jpg" alt="" />
-        </article>
-        <article>
-          <img src="./works/1.jpg" alt="" />
-        </article>
-        <article>
-          <img src="./works/2.jpg" alt="" />
-        </article>
-        <article>
-          <img src="./works/3.jpg" alt="" />
-        </article>
-        <article>
-          <img src="./works/4.jpg" alt="" />
         </article>
       </section>
     </section>
