@@ -25,9 +25,7 @@ function Home() {
         </section>
         <article className="home-start">
           <h1>John Fajardo</h1>
-          <h3>
-            Tattoo <span>X</span> Studio
-          </h3>
+          <h3>Graffiti Artist</h3>
         </article>
 
         <article className="home-btns">

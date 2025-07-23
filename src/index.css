@@ -3,13 +3,18 @@
 
 /* ROOT STYLES VARIABLES */
 :root{
-    --main-ui-color:#F7003E;
-    --main-txt-color:#FFFFFF;
+    --main-ui-color:#ffffff;
+    --main-txt-color:#ffffff;
+    --second-txt-color: #000000;
     --main-background-color:#1E1E1E;
     --second-background-color:#141414;
     --main-background-color-transparent:rgba(30,30,30,.9);
     --default-font: "Inter", sans-serif;;
     --main-font:"UnifrakturMaguntia", serif;
+}
+
+.maindivhtml{
+    overflow: hidden;
 }
 
 /* GLOBAL STYLES */
@@ -41,7 +46,7 @@ h3{
 }
 
 p{
-    color: var(--second-txt-color);
+    color: var(--main-txt-color);
     font-size: 1em;
 }
 
@@ -65,28 +70,39 @@ a{
 /* MAIN BUTTON STYLE */
 .main-btn{
     padding: 1rem 2rem;
-    color: var(--main-txt-color);
+    color: var(--second-txt-color);
     background-color: var(--main-ui-color);
-    border-radius: 15px;
     border: 3px solid var(--main-ui-color);
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }.main-btn:hover{
     background-color: transparent   ;
+    color:var(--main-txt-color);
 }
 
 /* SECOND BUTTON STYLE */
 .second-btn{
     padding: 1rem 5rem;
     border: 2px solid var(--main-txt-color);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-color: rgba(0, 0, 0, .4);
 }.second-btn:hover{
-    background-color: rgba(0, 0, 0, .8);
-    
+    color: rgba(0, 0, 0, .8);
+    background-color: var(--main-ui-color);
+    border: 2px solid rgba(0, 0, 0, .8)
 }
 
 /* BANNER */
 .banner{
     background-color: var(--second-background-color);
+}
+
+@media screen and (width <= 900px) {
+    .second-btn{
+        padding: 1rem 2rem;
+    }
 }

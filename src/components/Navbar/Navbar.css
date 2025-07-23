@@ -35,3 +35,9 @@
 }.navbar-link > a:hover{
     border-bottom: 3px solid var(--main-ui-color);
 }
+
+@media screen and (width <= 900px) {
+    .navbar-link-cont{
+        display: none;
+    }
+}

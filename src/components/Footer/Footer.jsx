@@ -11,7 +11,7 @@ function Footer() {
       <section className="footer-items-cont">
         <article>
           <h1>John Fajardo</h1>
-          <p>2025 John Fajardo | Tattoo Studio</p>
+          <p>2025 | Graffiti Artist</p>
         </article>
         <article>
           <h2>Item</h2>
@@ -49,8 +49,7 @@ function Footer() {
         </article>
         <IconContext.Provider value={{ size: "1.5em" }}>
           <article>
-            <h2>325 364 14 25</h2>
-            <p>lorem ipsum dolor</p>
+            <h2>Redes Sociales Oficiales</h2>
             <div className="footer-item-btns">
               <button className="main-btn">
                 <FaFacebook />

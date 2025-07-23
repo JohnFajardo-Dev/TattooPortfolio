@@ -27,3 +27,9 @@
     line-height: 30px;
     font-size: 1.5em;
 }
+
+@media screen and (width <= 900px) {
+    .about{
+        grid-template-columns: 1fr;
+    }
+}
